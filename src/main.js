@@ -12,7 +12,7 @@ const routes = [
     { path: '/', component: SiteHome },  // Trang chính sẽ là SiteHome
     { path: '/login', component: LoginForm }, // Trang đăng nhập
     { path: '/home', component: SiteHome }, // Trang home nếu muốn định nghĩa rõ ràng
-    { path: '/', redirect: '/login' },  // Chuyển hướng về login khi không có route khớ
+    { path: '', redirect: '/login' },  // Chuyển hướng về login khi không có route khớ
 ];
 
 const router = createRouter({
