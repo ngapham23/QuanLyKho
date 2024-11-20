@@ -25,7 +25,7 @@ Xampp: https://www.apachefriends.org/download.html
 Mở Visual Studio Code.
 Nhấn Ctrl + ~ để mở terminal.
 Nhập lệnh sau để clone dự án:
-git clone [URL GitHub của dự án]
+git clone [https://github.com/ngapham23/QuanLyKho.git]
 Dự án sẽ được tải về một thư mục trong máy tính.
 
 
