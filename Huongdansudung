@@ -9,6 +9,9 @@ get_warehouses.php: Lấy danh sách kho hàng.
 src/: Chứa mã nguồn Vue.js cho giao diện frontend.
 
 
+Chú Ý: Cài đặt và chạy Laravel backend: ( đoạn này vẫn chưa sử dụng)
+hiện tại file dự án em mới đang chạy vue js với php để xử lý ,chưa kết nối laravel với vue
+
 
 Hướng dẫn chạy dự án:
 1.Cài đặt môi trường cần thiết:
@@ -51,7 +54,6 @@ Bước 6: vào visual mở terminal của file quanlykho, chạy npm run serve
 Frontend sẽ chạy tại địa chỉ http://localhost:8080.
 
 
-5.Cài đặt và chạy Laravel backend: ( đoạn này vẫn chưa sử dụng)
-hiện tại file dự án em mới đang chạy vue js với php để xử lý ,chưa kết nối laravel với vue
+
 
 
