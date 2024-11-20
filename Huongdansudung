@@ -1,0 +1,57 @@
+Hướng dẫn tổ chức và sử dụng dự án:
+
+Cấu trúc dự án:
+
+backend/: Chứa cấu trúc Laravel để quản lý backend.
+BE/server/: Chứa các file PHP độc lập, hỗ trợ quản lý backend (hiện chưa tích hợp Laravel).
+get_login.php: Xử lý đăng nhập.
+get_warehouses.php: Lấy danh sách kho hàng.
+src/: Chứa mã nguồn Vue.js cho giao diện frontend.
+
+
+
+Hướng dẫn chạy dự án:
+1.Cài đặt môi trường cần thiết:
+Trước tiên, cần cài đặt các công cụ sau:
+
+Git: Tải và cài đặt tại https://git-scm.com.
+Node.js: Dùng để chạy Vue.js, tải tại https://nodejs.org.
+Composer: Dùng để quản lý thư viện PHP và Laravel, tải tại https://getcomposer.org.
+PHP: Đảm bảo phiên bản PHP từ 7.4 trở lên.
+Xampp: https://www.apachefriends.org/download.html
+
+2.Clone dự án từ GitHub:
+
+Mở Visual Studio Code.
+Nhấn Ctrl + ~ để mở terminal.
+Nhập lệnh sau để clone dự án:
+git clone [URL GitHub của dự án]
+Dự án sẽ được tải về một thư mục trong máy tính.
+
+
+
+3.Mở dự án trong Visual Studio Code:
+
+Trong Visual Studio Code, vào menu File > Open Folder.
+Chọn thư mục vừa clone từ GitHub.
+
+4/Cài đặt và chạy Vue.js frontend:
+Trong Visual Studio Code, mở terminal của file quanlykho, điều hướng vào thư mục src:
+cd src
+npm install ( nếu chưa cài )
+sau đó,bật xampp lên ,bật aphache và mysql
+lên web viết :http://localhost/phpmyadmin/
+file database em đã để trên dự án gitgub có tên là scrpit
+Bước 1: chọn mới
+Bước 2: Viết tên csdl -> nhom2_quanlykho
+Bước 3: tạo
+Bước 4: chọn tên file csdl nhom2_quanlykho sau đó chọn Import(nhập)
+Bước 5: kéo file script vào chỗ nhập tập tin và chọn nhập
+Bước 6: vào visual mở terminal của file quanlykho, chạy npm run serve
+Frontend sẽ chạy tại địa chỉ http://localhost:8080.
+
+
+5.Cài đặt và chạy Laravel backend: ( đoạn này vẫn chưa sử dụng)
+hiện tại file dự án em mới đang chạy vue js với php để xử lý ,chưa kết nối laravel với vue
+
+
