@@ -45,7 +45,7 @@ file database em đã để trên dự án gitgub có tên là scrpit
 Bước 1: chọn mới
 Bước 2: Viết tên csdl -> nhom2_quanlykho
 Bước 3: tạo
-Bước 4: chọn tên file csdl nhom2_quanlykho sau đó chọn Import(nhập)
+Bước 4: chọn tên file csdl nhom2_qlkho.sql sau đó chọn Import(nhập)
 Bước 5: kéo file script vào chỗ nhập tập tin và chọn nhập
 Bước 6: vào visual mở terminal của file quanlykho, chạy npm run serve
 Frontend sẽ chạy tại địa chỉ http://localhost:8080.
